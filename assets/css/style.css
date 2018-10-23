@@ -1,0 +1,86 @@
+.wholepage{
+    background: lightgray;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.header{
+    width:100%;
+    height: 100px;
+    background: white;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+}
+
+#name{
+    margin-left: 15%;
+    background: #4aaaa5;
+    float: left;
+    height: 100px;
+    width: 200px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.buttons{
+    float: right;
+    height: 30px;
+    width: 50 px;
+    margin-top: 45px;
+    margin-right: 50px;
+}
+
+.header::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* ^^^^^^^^^^ header stuff */
+
+.body{
+    content: 960px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 20%;
+    width: 60%;
+    height: 500px;
+    background: white;
+    border: black solid 1px;
+}
+
+#bodyheader{
+    padding: 30px;
+    width: 90%;
+    color: #4aaaa5;
+    border-bottom: lightgray solid 3px;
+
+}
+
+#Profile{
+    height: 150px;
+    width: 150px;
+    float: left;
+    padding-right: 10px;
+}
+
+#paragraph{
+    float: left;
+    font-size: 20px;
+}
+
+.paragraph2{
+    padding-top: 10px;
+    clear:both;
+}
+
+#copyright{
+    color: white;
+    border-top: #4aaaa5 solid 8px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+	align-content: stretch;
+}
+
