@@ -1,15 +1,23 @@
 .material {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: stretch;
+    margin: auto;
     width: 960px;
     background: #ffffff;
     border: #dddddd solid 1px;
-    margin: auto;
-    padding: 15px;
+    padding: 30px;
     font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
     color: #777777;
     line-height: 1.5;
+    margin-bottom: 100px;
 }
 
 .materialheader {
+    clear: both;
     color: #4aaaa5;
     font-family: "Georgia", "Times", "Times New Roman", "serif";
     margin-bottom: 20px;
@@ -22,7 +30,7 @@ h3 {
 }
 
 #nameinput, #emailinput, #messageinput {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #messageinput {
@@ -30,6 +38,9 @@ h3 {
     width: 60%;
 }
 
-#footerpadding {
-    padding-bottom: 100px;
+#submit {
+    background: #4aaaa5;
+    color: #ffffff;
+    height: 40px;
+    width: 60px;
 }

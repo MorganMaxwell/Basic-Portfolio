@@ -3,9 +3,14 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    height: 50px;
+    height: 25px;
     width: 100%;
     text-align: center; 
     background: #666666;
     color: #ffffff;
 }
+
+#footerpadding {
+    margin-bottom: 150px;
+}
+
