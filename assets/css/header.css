@@ -1,8 +1,9 @@
 .header {
     background: #ffffff;
-    width: 100%;
+    width: 101%;
     height: 100px;
     font-family: "Georgia", "Times", "Times New Roman", "serif";
+    margin: -10px;
     margin-bottom: 25px;
     border: #cccccc solid 1px;
 }
