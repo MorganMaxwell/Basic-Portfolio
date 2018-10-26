@@ -2,18 +2,18 @@
     background: #ffffff;
     border: solid #dddddd 1px;
     width: 960px;
-    display: flex;
     margin-left: 150px;
 }
 
 .portfolio {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: baseline;
-    align-content: stretch;
-    margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+        height: 800px;
+        width: 400px;
 }
 
 .portfolioheader {
@@ -22,32 +22,28 @@
     border-bottom: #dddddd solid 3px;
 }
 
-#todd, #nopickles, #internet, #dragonball, #self {
+
+.image {
+    position: relative;
+    margin: 10px;
+    border: solid black 1px;
     height: 200px;
     width: 200px;
 }
 
-.image1, .image2, .image3, .image4, .image5{
-    position: relative;
-    margin: 10px;
-    border: solid black 1px;
-}
-
 #videogames {
     position: absolute;
-    top: 230px;
-    left: 0;
+    bottom: 10px;
     background: #4aaaa5;
     color: white;
     height: 60px;
     width: 300px;
     font-size: 250%;
 }
-
+/* 
 #idontlikepickels {
     position: absolute;
-    top: 230px;
-    left: 0;
+    bottom: 230px;
     background: #4aaaa5;
     color: white;
     height: 60px;
@@ -57,8 +53,7 @@
 
 #myfavaddiction {
     position: absolute;
-    top: 230px;
-    left: 0;
+    bottom: 230px;
     background: #4aaaa5;
     color: white;
     height: 60px;
@@ -68,8 +63,7 @@
 
 #z {
     position: absolute;
-    top: 230px;
-    left: 0;
+    bottom: 230px;
     background: #4aaaa5;
     color: white;
     height: 60px;
@@ -79,11 +73,10 @@
 
 #dread {
     position: absolute;
-    top: 230px;
-    left: 0;
+    bottom: 230px;
     background: #4aaaa5;
     color: white;
     height: 60px;
     width: 300px;
     font-size: 250%;
-}
+} */
