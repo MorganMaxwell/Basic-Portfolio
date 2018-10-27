@@ -11,7 +11,7 @@
 #name {
     background: #4aaaa5;
     float: left;
-    margin-left: 240px;
+    margin-left: 250px;
     color: #ffffff;
     height: 100px;
     width: 15%;
@@ -21,7 +21,7 @@
 .navbar {
     float: right;
     margin-top: 25px;
-    margin-right: 210px;
+    margin-right: 220px;
     padding: 10px;
 }
 

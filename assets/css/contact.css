@@ -31,7 +31,7 @@ h3 {
 }
 
 #nameinput, #emailinput, #messageinput {
-    margin-bottom: 10px;
+    
 }
 
 #messageinput {
@@ -44,4 +44,5 @@ h3 {
     color: #ffffff;
     height: 40px;
     width: 60px;
+    margin-top: 5px;
 }
